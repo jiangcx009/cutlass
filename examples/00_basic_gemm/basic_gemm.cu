@@ -305,6 +305,8 @@ cudaError_t TestCutlassGemm(int M, int N, int K, float alpha, float beta) {
   float *C_cutlass;
   float *C_reference;
 
+
+  //
   //
   // Allocate matrices in GPU device memory with arbitrary seeds.
   //
